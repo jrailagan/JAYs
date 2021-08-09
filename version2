@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	int seconds, hr, min, sec;
+	
+	printf("Enter number of seconds to convert: ");
+	scanf("%d",&seconds);
+	
+	hr = seconds/3600;
+	min = (seconds - (hr*3600)) / 60;
+	sec = (seconds - (hr*3600)) - (((seconds-(hr*3600)) / 60) * 60);
+	// sec = seconds-hr*3600 - ((seconds-hr*3600) / 60 * 60 );
+	
+	printf("\n\t%d is %d hour/s, %d minute/s, and %d second/s.", seconds, hr, min, sec);
+	return 0;
+}
