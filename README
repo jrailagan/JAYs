@@ -1,0 +1,4 @@
+These 2 versions are my attempts from 2019 and 2021
+We were tasked to create a simple code for converting seconds to hrminsec
+I wrote them without using FOR and/or IF statements
+Both version works; first version is unnecessary long.
